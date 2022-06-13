@@ -4,11 +4,11 @@
     font-family: "Roboto", sans-serif
 }
 
-a {
+.header a {
     text-decoration: none;
 }
 
-ul {
+.header ul {
     list-style-type: none;
     display: flex;
     gap: 30px;
@@ -21,13 +21,13 @@ ul {
     background-color: #1F2937;
 }
 
-.left {
+.left a {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
 }
 
-.right a{
+.right a {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -80,4 +80,35 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.section2 #title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.section2 .items {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.section2 .item {
+    text-align: center;
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+.section2 .box {
+    border: 3px solid #3882F6;
+    height: 150px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.section2 .text {
+    color: #1F2937;
 }
